@@ -1,5 +1,23 @@
 # Me & all the others
 
+## During development:
+To start the whole app (node backend and React client) 
+```
+yarn dev
+```
+Find it in:
+http://localhost:3000/ 
+
+Turn it into oldschool JS:
+```
+yarn build
+```
+
+To run tests: 
+ ```
+ yarn test
+ ```
+
 ## Objectives:
 “Me & all the others” is a platform that helps to start a fight against domestic
 violence. At first it is addressing dangerous misconceptions that
