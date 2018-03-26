@@ -1,0 +1,37 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  .middle-bar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .circle{
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .count{
+    font-size: 2em;
+  }
+  .column{
+    width: 50%;
+    border-right: 1px solid grey;
+    height: 500px;
+  }
+
+  

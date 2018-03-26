@@ -1,0 +1,34 @@
+{
+  "name": "meandalltheothers",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://karolinkas.github.io/meAndAllTheOthers",
+  "proxy": "http://localhost:5000/",
+  "dependencies": {
+    "express": "^4.16.3",
+    "gh-pages": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "server": "nodemon server.js",
+    "client": "yarn start",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "eslint": "4.19.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
