@@ -65,5 +65,3 @@ domestic violence actually is. The information section can also other offer
 information for men who are aware of the problem and are interested in
 defining their own roles in society more clearly.
 
-Deployed on: 
-http://karolinkas.github.io/meAndAllTheOthers
