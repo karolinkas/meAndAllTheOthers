@@ -1,0 +1,65 @@
+body {
+    font: 14px "Century Gothic", sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+
+  h1{
+    margin: auto;
+    width: 260px;
+    color: #d8d8d8;
+  }
+  h2{
+    margin: auto;
+    width: 222px;
+    margin-bottom: 20px;
+  }
+  .middle-bar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .circle{
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .count{
+    font-size: 2em;
+  }
+  .column{
+    width: 50%;
+    border-right: 1px solid grey;
+    height: 100px;
+  }
+
+  .login-button{
+    background-color: #a64bd4;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
