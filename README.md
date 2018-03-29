@@ -1,5 +1,16 @@
 # Me & all the others
 
+## c9
+1. Set up new workspace from exisiting git source - https://docs.c9.io/docs/create-a-workspace. Use the 'Git source' approach as specified.
+2. Connect and push to github - Open your project : https://ide.c9.io/username/project and in the bash terminal:
+ a) git init 
+ b) (make some change)
+ c) git add .
+ d) git commit -m "first commit" 
+ e) git remote add origin https://github.com/username/project.git 
+ f) git push -u origin master
+
+
 ## During development:
 To start the whole app (node backend and React client) 
 ```
