@@ -1,5 +1,17 @@
 # Me & all the others
 
+## c9
+1. Get an invitation to collaborate on github and accept it
+2. Set up new workspace from exisiting git source - https://docs.c9.io/docs/create-a-workspace. Use the 'Git source' approach as specified.
+3. Connect and push to github - once step 2 has set up the workspace in the bash terminal write:
+ a) git init 
+ b) (make some change)
+ c) git add .
+ d) git commit -m "first commit" 
+ e) git remote add origin https://github.com/karolinkas/meAndAllTheOthers.git
+ f) git push
+
+
 ## During development:
 To start the whole app (node backend and React client) 
 ```
