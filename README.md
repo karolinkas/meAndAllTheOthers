@@ -18,6 +18,11 @@
 4. if you don't have this already, do
 git config --global user.name "yourusername"
 git config --global user.email "yourgithubemail"
+5. git remote add upstream https://github.com/karolinkas/meAndAllTheOthers.git
+6. git checkout -b your-new-branch
+7. (make change, add . , commit -m "message")
+8. first time: git push --set-upstream origin your-new-branch
+9. usually: git push
 
 
 ## During development:
