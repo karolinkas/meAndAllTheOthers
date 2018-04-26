@@ -11,6 +11,14 @@
  e) git remote add origin https://github.com/karolinkas/meAndAllTheOthers.git
  f) git push
 
+## Set up locally
+1. grab the clone/download from https://github.com/karolinkas/meAndAllTheOthers
+2. in terminal, cd to the folder where you want to keep your project
+3. git clone https://github.com/karolinkas/meAndAllTheOthers.git
+4. if you don't have this already, do
+git config --global user.name "yourusername"
+git config --global user.email "yourgithubemail"
+
 
 ## During development:
 To start the whole app (node backend and React client) 
