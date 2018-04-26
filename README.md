@@ -11,6 +11,19 @@
  e) git remote add origin https://github.com/karolinkas/meAndAllTheOthers.git
  f) git push
 
+## Set up locally
+1. grab the clone/download from https://github.com/karolinkas/meAndAllTheOthers
+2. in terminal, cd to the folder where you want to keep your project
+3. git clone https://github.com/karolinkas/meAndAllTheOthers.git
+4. if you don't have this already, do
+git config --global user.name "yourusername"
+git config --global user.email "yourgithubemail"
+5. git remote add upstream https://github.com/karolinkas/meAndAllTheOthers.git
+6. git checkout -b your-new-branch
+7. (make change, add . , commit -m "message")
+8. first time: git push --set-upstream origin your-new-branch
+9. usually: git push
+
 
 ## During development:
 To start the whole app (node backend and React client) 
