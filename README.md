@@ -23,6 +23,11 @@ git config --global user.email "yourgithubemail"
 7. (make change, add . , commit -m "message")
 8. first time: git push --set-upstream origin your-new-branch
 9. usually: git push
+10. brew install yarn
+11. yarn
+12. yarn dev (for development or yarn build (production)
+13. open a browser window and see gloriousness: http://localhost:3000/ 
+
 
 
 ## During development:
